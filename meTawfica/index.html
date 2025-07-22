@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="Tawfica Logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cp-achievements">Problem Solving</a></li>
+            <li><a href="#contest-achievements">Achievements</a></li>
+            <li><a href="#education-journey">Education</a></li>
+            <li><a href="#certificates">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-content">
+          <div class="header-text">
+            <p id="typing-text"></p>
+            <h1>
+              Greetings, I'm <span>Tawfica Bhuiyan</span><br />
+              An Undergraduate Student of IIT<br />
+              From Jahangirnagar University
+            </h1>
+          </div>
+          <div class="header-image">
+            <img src="images/background.jpg" alt="Tawfica Picture" />
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+
+
+    <!---------About Section--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am Tawfica Bhuiyan, currently pursuing my BSc in Information
+              Technology (IIT) at Jahangirnagar University. I am actively
+              involved in Competitive Programming, continuously improving myself
+              to become a fast learner and skilled problem solver. To achieve
+              this, I am learning advanced programming algorithms and data
+              structures, regularly solving problems on various online judges,
+              and participating in online contests. Alongside this, I am also
+              exploring tools of full-stack development to build real-time projects in the
+              near future and take my skills to the next level.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Competitive Programming Achievements Section -->
+    <div id="cp-achievements">
+      <div class="container">
+        <h2 class="section-title">Problem Solving</h2>
+        <h3 class="problem-count">
+          Problems Solved: <span class="counter" data-target="2200">0</span>+
+        </h3>
+
+
+        <div class="cp-grid">
+          <!-- Codeforces -->
+          <div class="cp-card">
+            <img src="images/cf.png" class="cp-logo" />
+            <h4>Codeforces</h4>
+            <p><span class="counter" data-target="1900">0</span>+ Problems</p>
+            <a href="https://codeforces.com/profile/mysticTB" target="_blank"
+              >View Profile</a
+            >
+          </div>
+
+
+          <!-- CodeChef -->
+          <div class="cp-card">
+            <img src="images/cc.png" class="cp-logo" />
+            <h4>CodeChef</h4>
+            <p><span class="counter" data-target="185">0</span>+ Problems</p>
+            <a href="https://www.codechef.com/users/mystictb" target="_blank"
+              >View Profile</a
+            >
+          </div>
+
+
+          <!-- AtCoder -->
+          <div class="cp-card">
+            <img src="images/at.png" class="cp-logo" />
+            <h4>AtCoder</h4>
+            <p><span class="counter" data-target="65">0</span>+ Problems</p>
+            <a href="https://atcoder.jp/users/Tawfica_Bhuiyan" target="_blank"
+              >View Profile</a
+            >
+          </div>
+
+
+          <!-- CSES -->
+          <div class="cp-card">
+            <img src="images/cses.png" class="cp-logo" />
+            <h4>CSES</h4>
+            <p><span class="counter" data-target="50">0</span>+ Problems</p>
+            <a href="https://cses.fi/user/143983" target="_blank"
+              >View Profile</a
+            >
+          </div>
+
+
+          <!-- LightOJ -->
+          <div class="cp-card">
+            <img src="images/loj.png" class="cp-logo" />
+            <h4>LightOJ</h4>
+            <p><span class="counter" data-target="45">0</span>+ Problems</p>
+            <a href="https://lightoj.com/user/tb_11" target="_blank"
+              >View Profile</a
+            >
+          </div>
+
+
+          <!-- UVA -->
+          <div class="cp-card">
+            <img src="images/uva.png" class="cp-logo" />
+            <h4>UVa Online Judge</h4>
+            <p><span class="counter" data-target="10">0</span>+ Problems</p>
+            <a
+              href="https://onlinejudge.org/index.php?option=com_comprofiler&Itemid=3"
+              target="_blank"
+              >View Profile</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Achievements -->
+    <h2 class="section-title main-title">
+      <i class="fa-solid fa-trophy"></i>Achievements
+    </h2>
+    <div id="contest-achievements">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fa-solid fa-earth-americas"></i> Online Contest Achievements
+        </h2>
+        <div class="contest-grid grid-2">
+          <!-- 1 -->
+          <div class="contest-card">
+            <img src="images/algo.png" alt="Algo" class="contest-img" />
+            <div class="contest-content">
+              <h4>First Runner-up (Girls Category)</h4>
+              <p><i class="fas fa-award"></i> Ranked</p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="contest-card">
+            <img src="images/ccwin.png" alt="CodeChef" class="contest-img" />
+            <div class="contest-content">
+              <h4>Codechef Starter 168 Div.3</h4>
+              <p><i class="fas fa-award"></i> Ranked 116th</p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="contest-card">
+            <img src="images/atwin.png" alt="AtCoder" class="contest-img" />
+            <div class="contest-content">
+              <h4>AtCoder Beginner 388</h4>
+              <p><i class="fas fa-award"></i> Ranked 1409th</p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="contest-card">
+            <img src="images/cfwin.png" alt="Codeforces" class="contest-img" />
+            <div class="contest-content">
+              <h4>Codeforces Round 1016 Div.3</h4>
+              <p><i class="fas fa-award"></i> Ranked 1703rd</p>
+            </div>
+          </div>
+           <!-- 5 -->
+           <div class="contest-card">
+            <img src="images/ieee18.png" alt="IEEE18" class="contest-img" />
+            <div class="contest-content">
+              <p>Team: JUNopes</p>
+              <p><i class="fas fa-award"></i> Ranked 16th</p>
+            </div>
+          </div>
+           <!-- 6 -->
+           <div class="contest-card">
+            <img src="images/ieee17.png" alt="IEEE17" class="contest-img" />
+            <div class="contest-content">
+              <p>Team: JU1127</p>
+              <p><i class="fas fa-award"></i> Ranked 16th</p>
+            </div>
+          </div>
+           <!-- 7 -->
+           <div class="contest-card">
+            <img src="images/ieee16.png" alt="IEEE16" class="contest-img" />
+            <div class="contest-content">
+              <p>Team: JUDelulu</p>
+              <p><i class="fas fa-award"></i> Ranked 17th</p>
+            </div>
+          </div>
+           <!-- 8 -->
+           <div class="contest-card">
+            <img src="images/icpc.png" alt="DUET" class="contest-img" />
+            <div class="contest-content">
+              <h4>ICPC Preliminary</h4>
+              <p><i class="fas fa-award"></i> 4x participant</p>
+            </div>
+          </div>
+          </div>
+        </div>
+       
+        <h2 class="section-title">
+          <i class="fas fa-map-marker-alt"></i> Onsite Contest Achievements
+        </h2>
+        <div class="contest-grid grid-2">
+          <!-- 5 -->
+          <div class="contest-card">
+            <img src="images/luna.png" alt="DU Luna" class="contest-img" />
+            <div class="contest-content">
+              <h4>DU</h4>
+              <p><i class="fas fa-award"></i> Ranked 6th</p>
+            </div>
+          </div>
+           <!-- 6 -->
+           <div class="contest-card">
+            <img src="images/uu.png" alt="DUET" class="contest-img" />
+            <div class="contest-content">
+              <h4>UU</h4>
+              <p>Team: JU_OneMoreZer0</p>
+              <p><i class="fas fa-award"></i> Ranked 28th</p>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="contest-card">
+            <img src="images/ngpc.png" alt="NGPC" class="contest-img" />
+            <div class="contest-content">
+              <h4>DIU</h4>
+              <p>Team: JU_OneMoreZer0</p>
+              <p><i class="fas fa-award"></i> Ranked 42nd</p>
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="contest-card">
+            <img src="images/duet.png" alt="DUET" class="contest-img" />
+            <div class="contest-content">
+              <h4>DUET</h4>
+              <p>Team: JU_OneMoreZer0</p>
+              <p><i class="fas fa-award"></i> Ranked 44th</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Add FontAwesome in <head> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+
+    <!-- Educational Timeline Section -->
+    <div id="education-journey">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fas fa-graduation-cap"></i> Educational Journey
+        </h2>
+        <div class="timeline">
+          <!-- 1 -->
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <img src="images/ju.png" alt="JU" />
+              <h3>Jahangirnagar University</h3>
+              <p>BSc in IIT</p>
+              <span><i class="fas fa-calendar-alt"></i> 2021 - Present</span>
+            </div>
+          </div>
+
+
+          <!-- 2 -->
+          <div class="timeline-item right">
+            <div class="timeline-content">
+              <img src="images/cvc.png" alt="CVC" />
+              <h3>Cumilla Victoria Govt. College</h3>
+              <p>HSC ~ Science</p>
+              <span><i class="fas fa-calendar-alt"></i> 2017 - 2019</span>
+            </div>
+          </div>
+
+
+          <!-- 3 -->
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <img src="images/cmhs.png" alt="CMHS" />
+              <h3>Cumilla Modern High School</h3>
+              <p>SSC ~ Science</p>
+              <span><i class="fas fa-calendar-alt"></i> 2013 - 2017</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+        <!-- Certificates -->
+        <div id="certificates">
+          <div class="container">
+            <h2 class="section-title">Certificates of Appreciation</h2>
+            <div class="cp-grid">
+              <!-- MIET -->
+              <div class="cp-card">
+                <img src="images/miet.png" class="cp-logo" />
+                <h4>Internationa Conference on MIET 2022</h4>
+                <a href="https://drive.google.com/file/d/1mTe4H-NnMFHQXYtzlvnhP1Dpj5N6fST1/view?usp=sharing" target="_blank"
+                  >Attendee</a
+                >
+              </div>
+   
+              <!-- MAth olympiad -->
+              <div class="cp-card">
+                <img src="images/mo.png" class="cp-logo" />
+                <h4>8th JUSC Math Olympiad</h4>
+                <a href="https://drive.google.com/file/d/1H9P5mr3VDIL9uv2oiHH6Z-2CoSPn8r8r/view?usp=sharing" target="_blank"
+                  >Appreciation</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+    <!---Contact-->
+    <div id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fa-solid fa-face-smile"></i> Get in Touch
+        </h2>
+
+
+        <div class="row">
+          <div class="contact-left">
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>bhuiyantawfica@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>01818082198</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/tawfica-bhuiyan-80aa29302/>"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/tawfica.bhuiyan.2030/>"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/TawficaBhuiyan"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="images/myResume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
